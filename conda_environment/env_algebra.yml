@@ -1,0 +1,19 @@
+name: algebra
+channels:
+    - defaults
+dependencies:
+    - python=3.13
+    - numpy
+    - sympy
+    - pip
+    - pandas
+    - pip:
+        - matplotlib
+        - pylatex
+        - fpdf2
+        - requests
+        - beautifulsoup4
+        - homeharvest
+        - PyQt5
+        - jupyter
+
